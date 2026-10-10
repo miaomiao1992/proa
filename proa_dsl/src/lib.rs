@@ -29,9 +29,12 @@
 //! needed, the parser would need to retain the original token stream.
 
 pub mod consolidate;
+pub mod content;
 pub mod emit;
+pub mod md;
 pub mod md_layout;
 pub mod parse;
+pub mod text;
 
 pub use parse::{Attribute, Element, HtmlRoot, Node};
 
